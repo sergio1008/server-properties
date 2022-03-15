@@ -2,8 +2,6 @@ spring:
   h2:
     console:
       enabled: true
-      settings:
-        web-admin-password: 123      
   application:
     name: service-usuarios
 server:
