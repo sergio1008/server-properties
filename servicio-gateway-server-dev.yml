@@ -31,3 +31,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance-id:${random.value}}
+
+config:
+  security:
+    oauth:
+      jwt: 
+        key: clave_secreta
