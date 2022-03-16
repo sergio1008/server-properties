@@ -14,5 +14,6 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance-id:${random.value}}
 logging:
   level:
-    sql: debug
-
+    org:
+      hibernate:
+        sql: debug
