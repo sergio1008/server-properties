@@ -8,12 +8,6 @@ spring:
           - Path=/api/usuarios/**
         filters:
           - StripPrefix=2
-      - id: config-server
-        uri: lb://config-server
-        predicates:
-          - Path=/config-server/**
-        filters:
-          - StripPrefix=1
       - id: auth-server
         uri: lb://auth-server
         predicates:
