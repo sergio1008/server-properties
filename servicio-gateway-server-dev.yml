@@ -30,4 +30,4 @@ config:
   security:
     oauth:
       jwt: 
-        key: clave_secreta
+        key: algun_codigo_secreto_aeiou
