@@ -5,7 +5,8 @@ spring:
     console:
       enabled: true
 server:
-  port: ${port:0}
+#  port: ${port:0}
+  port: 9091
 eureka:
   client:
     service-url:
