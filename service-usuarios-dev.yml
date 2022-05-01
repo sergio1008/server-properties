@@ -4,8 +4,6 @@ spring:
   h2:
     console:
       enabled: true
-  application:
-    name: service-usuarios
 server:
   port: ${port:0}
 eureka:
