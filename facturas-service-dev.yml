@@ -1,3 +1,9 @@
 
 app:
   correo: sergiobernalc@outlook.com
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true  
